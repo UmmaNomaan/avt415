@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	padding: 60px;
+}
+
+h1{
+	color: #F5762A;
+	font-size: 60px;
+	font-family: "Altivo";
+	font-weight: 700;
+}
+
+h2{
+	color: #F5762A;
+	font-size: 35px;
+	font-family: "altivo";
+	font-weight: 600;
+	padding-bottom: 0px;
+	line-height: 0px;
+}
+
+/*h3{
+	color: #F5762A;
+	font-size: 20px;
+	font-family: "altivo";
+	font-weight: 400;
+	padding-bottom: 0px;
+	line-height: 0px;
+}*/
+
+a:link{
+	font-color: #F5762A;
+	font-size: 20px;
+	font-family: "altivo";
+	font-weight: 400;
+	text-decoration: none;
+	padding-bottom: 0px;
+	display: block;
+	line-height: 20px;
+}
+
+/* visited link */
+a:visited {
+  color: #F5762A;
+}
+
+
+a:hover{
+	color: #FFA465;
+	font-size: 20px;
+	font-family: "altivo";
+	font-weight: 400;
+}
+
+/* selected link */
+a:active {
+  color: red;
+}
+	
+p{ 
+	font-family: "altivo";
+	line-height: 0px;
+	padding-bottom: 20px;
+	}
