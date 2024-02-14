@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	padding-top: 60px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 60px;
+}
+
+h1{
+	color: #F5762A;
+	font-size: 40px;
+	font-family: "Altivo";
+	font-weight: 700;
+	text-align: center;
+}
+
+h2{
+	color: #F5762A;
+	font-size: 25px;
+	font-family: "altivo";
+	font-weight: 700;
+	padding-bottom: 0px;
+	line-height: 0px;
+	text-decoration: underline;
+	
+}
+
+p{ 
+	font-family: "altivo";
+	font-size: 18px;
+	padding-bottom: 20px;
+}
