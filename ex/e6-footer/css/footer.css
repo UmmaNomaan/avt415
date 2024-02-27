@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 8;
+	
+}
+
+.footers {
+	position: bottom;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.flex-container {
+	display: flex;
+	padding: 2em 0em 2em 10%;
+	flex-direction: row;
+	background-color: #DEDEDB;
+	color: #707070;
+	
+}
+
+.copyright {
+	width: 33%;
+	margin-right: 3em;
+}
+
+.about {
+	width: 33%;
+	margin-right: 3em;
+}
+
+.services {
+	width: 33%;
+	margin-right: 3em;
+}
+
+.footer-bottom {
+	padding: 1em 0em 1em 10%;
+	font-family: "open-sans", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 1em;
+	color: #707070;
+}
+
+h1 {
+	font-family: "open-sans", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 100%;
+}
+
+p {
+	font-family: "open-sans", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 80%;
+}
+
+.big {
+	font-family: "open-sans", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+}
+
+/* Styles for browser window is widder than 800px */
+* {
+  box-sizing: border-box;
+}
+
+
+/* Start: tell browser to do the followings when browser window is 800px or smaller */
+  @media only screen and (max-width: 800px) {
+body {
+	
+}
+
+.footers {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	padding-left: 1em;
+}
+
+.flex-container {
+	display: flex;
+	padding: 2em 0em 2em 10%;
+	flex-direction: column;
+	align-items: flex-end;
+	background-color: #DEDEDB;
+	color: #707070;
+	
+}
+
+.copyright {
+	width: 33%;
+	margin-right: 3em;
+}
+
+.about {
+	width: 33%;
+	margin-right: 3em;
+}
+
+.services {
+	width: 33%;
+	margin-right: 3em;
+}
+
+.footer-bottom {
+	padding: 1em 0em 1em 10%;
+	font-family: "open-sans", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 1em;
+	color: #707070;
+}
+
+h1 {
+	font-family: "open-sans", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 100%;
+}
+
+p {
+	font-family: "open-sans", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 80%;
+}
+
+.big {
+	font-family: "open-sans", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1em;
+}
+
+
+
+} /* don't forget to close the styles for 800px and smaller */
